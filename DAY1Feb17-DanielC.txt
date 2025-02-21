@@ -635,7 +635,7 @@ conf t
 *******call other countries!!!********
 config t
 !
-dial-peer voice _ voip
+dial-peer voice 31 voip
 destination-pattern k..
 session protocol sipv2
 session target sip-server
